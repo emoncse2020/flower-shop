@@ -15,7 +15,7 @@
   letter-spacing: 0%;
   text-align: center;
 }
-main {
+.main-width {
   width: 1440px;
   margin: 0 auto;
 }
@@ -121,6 +121,7 @@ article img {
   margin-top: 48px;
   display: flex;
   gap: 24px;
+  margin-bottom: 128px;
 }
 
 .f-title {
@@ -139,4 +140,27 @@ article img {
 
 .f-title a {
   color: rgb(39, 39, 39);
+}
+
+.a-con {
+  border-radius: 8px;
+  width: 100%;
+
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 87px 0;
+}
+
+.a-con .sub-tit {
+  color: rgba(39, 39, 39, 0.8);
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
 }
