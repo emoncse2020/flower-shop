@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Shared Style */
+
+.title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  padding: 20px 43px 20px 43px;
+  border: none;
+
+  background: rgb(229, 84, 115);
+}
+
+/* header section */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(229, 84, 115, 0.1);
+  padding: 0 240px;
+}
+
+article {
+  padding-top: 147px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 45%;
+}
+article .h-title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+article .h-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+article img {
+  width: 45%;
+}
+
+/* featured section */
+
+.featured {
+  text-align: center;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item1 {
+  border-radius: 300px 300px 0px 0px;
+  padding: 110px 78px 0 76px;
+
+  background: rgba(167, 33, 98, 0.15);
+}
+.item2 {
+  padding: 117px 47px 51px 47px;
+  border-radius: 300px 300px 0px 0px;
+
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.item3 {
+  padding: 67px 75px 0 75px;
+
+  border-radius: 300px 300px 0px 0px;
+
+  background: rgba(71, 125, 17, 0.15);
+  /* margin-bottom: 32px; */
+}
+.container {
+  margin-top: 48px;
+  display: flex;
+  gap: 24px;
+}
+
+.f-title {
+  margin-top: 32px;
+  /* color: rgb(39, 39, 39);
+   */
+  color: black;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+.f-title a {
+  color: rgb(39, 39, 39);
+}
